@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    
+    overflow: hidden;
+}
+
+.back-img{
+    width: 919px;
+    height: 50px;
+    margin: 0;
+    
+}
+
+
+.content .logo img{    
+    width: 40px;
+    height: 66px;
+    margin-top: -35px;
+    margin-left: 79px;
+    margin-bottom: 0;
+}
+
+.content .logo h3{
+    width: 230px;
+    height: 14px;
+    margin-top: -44px;
+    margin-left: 178px;
+    margin-bottom: 0;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+.content .list-menu{
+    width: 600px;
+    display: flex;
+    margin-top: -14px;
+    margin-left: 700px;
+    margin-bottom: 0;
+    padding-left: 15rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+}
+
+#universe{
+    font-weight: bold;
+}
+
+#character{
+    width: 450px;
+    height: 670px;
+    margin-top: -10px;
+    margin-left: 450px;
+    margin-bottom: 0;
+}
+
+#placard{
+    width: 270px;
+    height: 130px;
+    margin-top: -367px;
+    margin-left: 550px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.btn button{
+    width: 210px;
+    height: 40px;
+    margin-top: -250px;
+    margin-left: 575px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgb(204, 21, 21), rgb(194, 16, 16));
+    color: white;
+    border-radius: 10px;
+}
